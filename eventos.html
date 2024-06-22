@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>MarketAcess</title>
+</head>
+<body>
+
+<header>
+  <div class="wrapper">
+    <h2>MarketAcess</h2>
+    <nav>
+      <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul id="menu">
+        <li><a  href="index.html">Inicio</a></li>
+        <li><a href="about.html">Sobre nós</a></li>
+        <li><a class="active"  href="eventos.html">Eventos</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-about event">
+    <div class="hero-about-content">
+      <h1>Expositores</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+    </div>
+  </div>
+</section>
+<div class="wrapper">
+<section class="categories-container">
+  <div class="bb">
+  <h1>Categorias</h1>
+  <div class="categories">
+      <span class="category all" data-category="all">Todas</span>
+      <span class="category" data-category="agricultura">Agricultura</span>
+      <span class="category" data-category="vestuario">Vestuário</span>
+      <span class="category" data-category="transporte">Transporte</span>
+      <span class="category" data-category="tecnologia">Tecnologia</span>
+  </div>
+</div>
+  <div class="grid">
+      <div class="card" data-category="tecnologia">
+          <img src="assets/images/feira.jpeg" alt="Mercado Livre">
+          <div class="card-content">
+              <h2>Empresa B</h2>
+              <p>ver expositor</p>
+          </div>
+      </div>
+      <div class="card" data-category="tecnologia">
+          <img src="assets/images/feira.jpeg" alt="Tecota">
+          <div class="card-content">
+              <h2>Empresa XC</h2>
+              <p>ver expositor</p>
+          </div>
+      </div>
+      <div class="card" data-category="transporte">
+          <img src="assets/images/feira.jpeg" alt="Grupo Logos">
+          <div class="card-content">
+              <h2>Empresa y</h2>
+              <p>ver expositor</p>
+          </div>
+      </div>
+      <div class="card" data-category="tecnologia">
+          <img src="assets/images/feira.jpeg" alt="Telefônica">
+          <div class="card-content">
+              <h2>Empresa z</h2>
+              <p>ver expositor</p>
+          </div>
+      </div>
+      <div class="card" data-category="tecnologia">
+        <img src="assets/images/feira.jpeg" alt="Telefônica">
+        <div class="card-content">
+            <h2>Empresa z</h2>
+            <p>ver expositor</p>
+        </div>
+    </div>
+    <div class="card" data-category="tecnologia">
+      <img src="assets/images/feira.jpeg" alt="Telefônica">
+      <div class="card-content">
+          <h2>Empresa z</h2>
+          <p>ver expositor</p>
+      </div>
+  </div>
+  <div class="card" data-category="tecnologia">
+    <img src="assets/images/feira.jpeg" alt="Telefônica">
+    <div class="card-content">
+        <h2>Empresa z</h2>
+        <p>ver expositor</p>
+    </div>
+</div>
+<div class="card" data-category="tecnologia">
+  <img src="assets/images/feira.jpeg" alt="Telefônica">
+  <div class="card-content">
+      <h2>Empresa z</h2>
+      <p>ver expositor</p>
+  </div>
+</div>
+<div class="card" data-category="tecnologia">
+  <img src="assets/images/feira.jpeg" alt="Telefônica">
+  <div class="card-content">
+      <h2>Empresa z</h2>
+      <p>ver expositor</p>
+  </div>
+</div>
+<div class="card" data-category="tecnologia">
+  <img src="assets/images/feira.jpeg" alt="Telefônica">
+  <div class="card-content">
+      <h2>Empresa z</h2>
+      <p>ver expositor</p>
+  </div>
+</div>
+<div class="card" data-category="tecnologia">
+  <img src="assets/images/feira.jpeg" alt="Telefônica">
+  <div class="card-content">
+      <h2>Empresa z</h2>
+      <p>ver expositor</p>
+  </div>
+</div>
+<div class="card" data-category="tecnologia">
+  <img src="assets/images/feira.jpeg" alt="Telefônica">
+  <div class="card-content">
+      <h2>Empresa z</h2>
+      <p>ver expositor</p>
+  </div>
+</div>
+      <!-- Add more cards as needed -->
+  </div>
+</section>
+</div>
+
+
+
+
+<div class="formula">
+  <div class="wrapper">
+    <div class="formulario">
+  <form id="contactForm" onsubmit="submitForm(event)">
+    <h1>Venha participar da nossa feira e expor seus produtos.</h1>
+    <div class="form-group">
+     
+      <input type="text" placeholder="Nome da Empresa" id="empresa" name="empresa" required>
+    </div>
+    <div class="form1">
+    <div class="form-group">
+     
+      <input type="email" placeholder="E-mail" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <input placeholder="Contato" type="text" id="contato" name="contato" required>
+    </div>
+  </div>
+    <div class="form-group">
+      
+      <textarea id="descricao" placeholder="Fale um pouco sobre o negocio" name="descricao" required></textarea>
+    </div>
+    <button type="submit" id="enviarBtn">Enviar</button>
+    <div id="loading" style="display: none;">Enviando...</div>
+  </form>
+  </div>
+  <div class="image-formulario">
+  <img src="assets/images/personal.png" alt="feira">
+  </div>
+  </div>
+  </div>
+  
+  
+  <footer>
+  <div class="wrapper">
+    <div class="contacto">
+      <h1>Contato</h1>
+      <p>email@empresa.com</p>
+      <p>www.empresa.com</p>
+      <p>(+258) 80000000</p>
+    </div>
+  
+    <div class="local">
+      <h1>Local</h1>
+      <p>Endereco da Feira</p>
+      <p>Endereco da Empresa</p>
+    </div>
+  
+    <div class="social">
+      <h1>Social</h1>
+      <p>Instagram</p>
+      <p>Facebook</p>
+      <p>Linkdin</p>
+  </div>
+  </div>
+  </div>
+  </footer>
+  
+
+
+<script src="assets/js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/65257baff6.js" crossorigin="anonymous"></script>
+</body>
+</html>

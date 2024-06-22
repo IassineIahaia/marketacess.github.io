@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>MarketAcess</title>
+</head>
+<body>
+
+<header>
+  <div class="wrapper">
+    <h2>MarketAcess</h2>
+    <nav>
+      <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <ul id="menu">
+        <li><a  href="index.html">Inicio</a></li>
+        <li><a class="active" href="about.html">Sobre nós</a></li>
+        <li><a href="eventos.html">Eventos</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-about">
+    <div class="hero-about-content">
+      <h1>Sobre nos</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+    </div>
+  </div>
+</section>
+<section class="hero-about-exposicao">
+  <div class="wrapper">
+<div class="container">
+  <div class="text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+  </div>
+  <div class="container-stats">
+    <div class="stats">
+      <h1>+20</h1>
+      <p><span>Exposicoes</span><br>Realizadas</p>
+  </div>
+  <div class="stats">
+      <h1>+13</h1>
+      <p><span>Empresas</span><br>Participantes</p>
+  </div>
+  <div class="stats">
+      <h1>+15</h1>
+      <p><span>Funcionarios</span><br>Ativos</p>
+  </div>
+  </div>
+
+</div>
+</div>
+</section>
+
+<section class="containr-text">
+  <div class="wrapper">
+    <div class="text">
+      <h1>Potencializando Empresas Através de Feiras</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="image-slider">
+<div class="wrapper">
+  <div class="slider-wrapper slider-container">
+    <div class="slider slides">
+      <div class="slide">
+        <img src="assets/images/feira.jpeg" alt="Slide 1">
+    
+      </div>
+      <div class="slide">
+        <img src="assets/images/feira.jpeg" alt="Slide 2">
+ 
+      </div>
+      <div class="slide">
+        <img src="assets/images/feira.jpeg" alt="Slide 3">
+      
+      </div>
+    </div>
+    <div class="navigation nav-slider">
+      <div class="wrapper">
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+
+
+<div class="formula">
+<div class="wrapper">
+  <div class="formulario">
+<form id="contactForm" onsubmit="submitForm(event)">
+  <h1>Venha participar da nossa feira e expor seus produtos.</h1>
+  <div class="form-group">
+   
+    <input type="text" placeholder="Nome da Empresa" id="empresa" name="empresa" required>
+  </div>
+  <div class="form1">
+  <div class="form-group">
+   
+    <input type="email" placeholder="E-mail" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <input placeholder="Contato" type="text" id="contato" name="contato" required>
+  </div>
+</div>
+  <div class="form-group">
+    
+    <textarea id="descricao" placeholder="Fale um pouco sobre o negocio" name="descricao" required></textarea>
+  </div>
+  <button type="submit" id="enviarBtn">Enviar</button>
+  <div id="loading" style="display: none;">Enviando...</div>
+</form>
+</div>
+<div class="image-formulario">
+<img src="assets/images/personal.png" alt="feira">
+</div>
+</div>
+</div>
+
+
+<footer>
+<div class="wrapper">
+  <div class="contacto">
+    <h1>Contato</h1>
+    <p>email@empresa.com</p>
+    <p>www.empresa.com</p>
+    <p>(+258) 80000000</p>
+  </div>
+
+  <div class="local">
+    <h1>Local</h1>
+    <p>Endereco da Feira</p>
+    <p>Endereco da Empresa</p>
+  </div>
+
+  <div class="social">
+    <h1>Social</h1>
+    <p>Instagram</p>
+    <p>Facebook</p>
+    <p>Linkdin</p>
+</div>
+</div>
+</div>
+</footer>
+
+
+
+<script src="assets/js/scripts.js"></script>
+<script src="https://kit.fontawesome.com/65257baff6.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
