@@ -80,7 +80,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
-  background: linear-gradient(270deg, #CC2A2A, #CC2A2A00);
+  background: linear-gradient(270deg, #649b96, #CC2A2A00);
   opacity: 62%;
   position: absolute;
   mix-blend-mode: multiply;
@@ -98,7 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  background-color: #EE1C25;
+  background-color: #29a2ab;
   color: white;
   max-width: 617px;
   opacity: 80%;
@@ -143,8 +143,8 @@ body {
 
 .btn {
   transition: all 1s;
-  background-color: white;
-  color: #000;
+  background-color: #fff;
+  color: #29a2ab;
   padding: 10px 20px;
   font-weight: 500;
   text-decoration: none;
@@ -166,7 +166,7 @@ body {
 }
 
 .active-btn {
-  color: #EE1C25 !important;
+  color: #29a2ab !important;
 }
 
 /* descricao */
@@ -188,7 +188,7 @@ body {
 
 .conteudo-desc h1 {
   max-width: 458px;
-  font-size: 50px;
+  font-size: 36px;
   font-weight: 500;
   color: #000;
 }
@@ -199,7 +199,7 @@ body {
 }
 
 .btn-vermelho {
-  background-color: #EE1C25;
+  background-color: #29a2ab;
   padding: 16px;
   text-decoration: none;
   color: white;
@@ -557,7 +557,7 @@ button:hover {
 
 footer{
 
-  background-color: #EE1C25;
+  background-color: #29a2ab;
 }
 
 footer .wrapper{
@@ -1003,9 +1003,11 @@ footer .wrapper p{
 }
 .conteudo-info h4{
   padding-bottom: 20px;
+  line-height: 20px;
 }
 .conteudo-info ul{
   padding-left: 20px;
+  line-height: 20px;
 }
 .conteudo-info li{
   padding-bottom: 10px;
@@ -1013,6 +1015,13 @@ footer .wrapper p{
 }
 .conteudo-info p{
   padding-bottom: 20px;
+  line-height: 20px;
+}
+footer a{
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding-bottom: 15px;
 }
 
 
