@@ -190,12 +190,16 @@ body {
   max-width: 458px;
   font-size: 36px;
   font-weight: 500;
-  color: #000;
+  color: #29a2ab;
+}
+.conteudo-desc h3{
+  color: #29a2ab;
 }
 
 .conteudo-desc p {
   font-size: 17px;
   margin-bottom: 20px;
+  
 }
 
 .btn-vermelho {
@@ -1000,14 +1004,22 @@ footer .wrapper p{
 }
 .conteudo-info h2{
   padding-bottom: 20px;
+  color: #29a2ab;
 }
 .conteudo-info h4{
   padding-bottom: 20px;
   line-height: 20px;
+  color: #29a2ab;
 }
+/* p strong{
+  color: #29a2ab;
+} */
 .conteudo-info ul{
   padding-left: 20px;
   line-height: 20px;
+}
+.conteudo-info a{
+  color: #29a2ab;
 }
 .conteudo-info li{
   padding-bottom: 10px;
